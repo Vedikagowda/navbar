@@ -1,0 +1,70 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    height: 100vh; /* Each section takes full viewport height */
+    padding: 50px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+  /* Navigation Bar Styles */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 18px;
+  }
+  
+  /* Hover Effect on Menu Items */
+  nav ul li a:hover {
+    background-color: #ff6347; /* Tomato color */
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Change Navbar Color When Scrolled */
+  nav.scrolled {
+    background-color: #444; /* Darker shade */
+  }
+  
+  /* Section Colors for Visibility */
+  #home { background-color: #f4f4f4; }
+  #about { background-color: #eaeaea; }
+  #services { background-color: #dcdcdc; }
+  #portfolio { background-color: #c0c0c0; }
+  #contact { background-color: #b0b0b0; }
+  
